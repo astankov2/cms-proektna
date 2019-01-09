@@ -1,0 +1,33 @@
+
+body {
+	height: 100%;
+}
+
+.Sidebar {
+	min-width: 250px;
+	max-width: 250px;
+	height: 100%;
+	display: block;
+	background-color: #373A47;
+	position: fixed;
+}
+
+.menu-item {
+	text-decoration: none;
+	font-size: 1.15em;
+	display: block;
+	color: grey;
+	padding: 10px 10px 10px 10px;
+}
+
+.menu-item:hover {
+	background-color: #4D4D4D;
+	text-decoration: none;
+	color: grey;
+}
+
+.page-content {
+	margin-left: 300px;
+	width: auto;
+	overflow: auto;
+}
